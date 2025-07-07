@@ -8,12 +8,17 @@ int count(int n){
         n/=10;
     }
     return count;
+}
 
+//optimal method
+int countLogMethod(int n){
+    int count= int(log10(n)+1);
+    return count;
 }
 
 int main(){
     int n;
     cin>>n;
-    cout<<count(n);
+    cout<<"new "<<countLogMethod(n);
     return 0;
 }
