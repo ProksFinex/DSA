@@ -1,3 +1,5 @@
+//armstrong number for 3 digits
+
 #include <bits/stdc++.h>
 using namespace std;
 
